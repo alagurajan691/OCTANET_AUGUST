@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Train Booking</h1>
+        <p>Book your train tickets easily and quickly</p>
+    </header>
+    <main>
+        <form>
+            <label for="from">From:</label>
+            <input type="text" id="from" name="from" required>
+            
+            <label for="to">To:</label>
+            <input type="text" id="to" name="to" required>
+            
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="class">Class:</label>
+            <select id="class" name="class">
+                <option value="economy">Economy</option>
+                <option value="business">Business</option>
+                <option value="first">First Class</option>
+            </select>
+            
+            <button type="submit">Search Trains</button>
+        </form>
+    </main>
+    <footer>
+        <p>© 2024 Train Booking. All rights reserved.</p>
+    </footer>
+</body>
+</html>
